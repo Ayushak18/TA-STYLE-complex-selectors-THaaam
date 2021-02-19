@@ -132,13 +132,17 @@ table {
 
 /* Commoon Styles */
 
-*{
-    box-sizing: border-box;
+html {
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
   /* background: rgb(89, 191, 194); */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.2;
 }
 
@@ -153,8 +157,8 @@ body {
   justify-content: space-between;
 }
 
-.justify-start{
-    justify-content: flex-start;
+.justify-start {
+  justify-content: flex-start;
 }
 
 .align-center {
@@ -166,34 +170,42 @@ a {
 }
 
 .padding {
-    padding-top: 15px;
-    padding-bottom:15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.center{
-    text-align: center;
+.center {
+  text-align: center;
 }
 
-.button{
-    background: white;
-    color: rgb(49,67,119);
-    font-weight: 700;
-    padding: 20px 50px;
-    border-radius: 5px;
-    margin: 30px 0;
-    display: inline-block;
+.button {
+  background: white;
+  color: rgb(49, 67, 119);
+  font-weight: 700;
+  padding: 20px 50px;
+  border-radius: 5px;
+  margin: 1.8rem 0;
+  display: inline-block;
 }
 
-.flex-40{
-    flex: 0 1 40%;
+.flex-40 {
+  flex: 0 1 40%;
+}
+
+#checkbox {
+  display: none;
+}
+
+label {
+  display: none;
 }
 
 /* Specific Style */
 
-.header{
-    position: absolute;
-    width: 100%;
-    z-index: 2;
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
 }
 
 .brand {
@@ -202,97 +214,95 @@ a {
   font-weight: 700;
 }
 
-li a{
-    color: white;
-    padding: 0 10px;
-    font-size: 22px;
-    font-weight: 500;
+li a {
+  color: white;
+  padding: 0 10px;
+  font-size: 22px;
+  font-weight: 500;
 }
 
 /* Hero Section */
 
-.hero{
-    background: rgb(89, 191, 194);
-    padding-top: 180px;
-    /* padding-bottom: 500px; */
-    position: relative;
-    height: 150vh;
+.hero {
+  background: rgb(89, 191, 194);
+  padding-top: 180px;
+  position: relative;
+  height: 150vh;
 }
 
-.hero-heading{
-    font-size: 72px;
-    color: white;
-    font-weight: 700;
+.hero-heading {
+  font-size: 72px;
+  color: white;
+  font-weight: 700;
 }
 
-.hero-img{
-    position: absolute;   
-    left: 0;
-    right: 0;
-    top: 40%;
-    bottom: 0;
-    width: 100%;
+.hero-img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40%;
+  bottom: 0;
+  width: 100%;
 }
 
-.format{
-    margin-top: 300px;
+.format {
+  margin-top: 20%;
 }
 
-.file{
-    color: rgb(189,200,224);
-    font-size: 32px;
-    font-weight: 700;
+.file {
+  color: rgb(189, 200, 224);
+  font-size: 32px;
+  font-weight: 700;
 }
 
-.file h4{
-    margin-left: 10px;
+.file h4 {
+  margin-left: 10px;
 }
 
-.format hr{
-    margin: 80px 0;
+.format hr {
+  margin: 80px 0;
 }
 
 /* Graph Section */
 
-.graph-text h4{
-    font-size: 40px;
-    color: rgb(49,67,119);
-    font-weight: 700;
-    margin-bottom: 20px;
+.graph-text h4 {
+  font-size: 40px;
+  color: rgb(49, 67, 119);
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
-.graph-img{
-    width: 100%;
+.graph-img {
+  width: 100%;
 }
 
-.graph-text p{
-    line-height: 1.8;
-    margin-bottom: 10px;
-    color: grey;
+.graph-text p {
+  line-height: 1.8;
+  margin-bottom: 10px;
+  color: grey;
 }
 
-.special-btn{
-    background: rgb(89, 191, 194);
-    color: white;
-    font-weight: 700;
-    font-size: 24px;
-    padding: 10px 30px;
-    display: inline-block;
+.special-btn {
+  background: rgb(89, 191, 194);
+  color: white;
+  font-weight: 700;
+  font-size: 1.2em;
+  padding: 10px 30px;
+  display: inline-block;
 }
 
-
-.table{
-    margin: 80px 0;
+.table {
+  margin: 80px 0;
 }
 
-table{
-    margin: 50px 0;
+table {
+  margin: 50px 0;
 }
 
-.table-heading{
-    font-size: 32px;
-    font-weight: 700;
-    color: rgb(49,67,119);
+.table-heading {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(49, 67, 119);
 }
 
 /* thead{
@@ -300,159 +310,260 @@ table{
     border-top-left-radius: 5px;
 } */
 
-th{
-    background: rgb(89, 191, 194);
-    padding: 20px;
-    color: white;
-    font-weight: 500;
+th {
+  background: rgb(89, 191, 194);
+  padding: 20px;
+  color: white;
+  font-weight: 500;
 }
 
-td{
-    padding: 15px 20px;
-    border: 1px solid grey;
-    color: grey;
+td {
+  padding: 15px 20px;
+  border: 1px solid grey;
+  color: grey;
 }
 
-tr:nth-child(2n){
-    background: rgb(213,229,229);
+tr:nth-child(2n) {
+  background: rgb(213, 229, 229);
 }
 
-.plans{
-    margin: 80px 0;
+.plans {
+  margin: 80px 0;
 }
 
-
-.plans-text h4{
-    font-size: 40px;
-    color: rgb(49,67,119);
-    font-weight: 700;
-    margin-bottom: 20px;
+.plans-text h4 {
+  font-size: 40px;
+  color: rgb(49, 67, 119);
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
-.plan-toggle{
-    margin: 50px 0;
+.plan-toggle {
+  margin: 50px 0;
 }
 
-.plan-btn{
-    background: rgb(187,236,236);
-    padding: 8px 25px;
-    border-radius: 30px;
-    margin: 0 20px;
+.plan-btn {
+  background: rgb(187, 236, 236);
+  padding: 1rem 2rem;
+  border-radius: 3rem;
+  margin: 0 2rem;
 }
 
-.btn-toggler{
-    position: relative;
-    left: 15px;
-    padding: 1px 10px;
-    border-radius: 50%;
-    background: rgb(89,191,194);
+.btn-toggler {
+  position: relative;
+  left: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  background: rgb(89, 191, 194);
 }
 
-.plan-month,.plan-yearly{
-    color: rgb(49,67,119);
-    font-weight: 700;
+.plan-month,
+.plan-yearly {
+  font-size: 1.2rem;
+  color: rgb(49, 67, 119);
+  font-weight: 700;
 }
 
-
-.monthly-card{
-    border: 3px solid rgb(161, 161, 161);
-    border-radius: 10px;
-    padding: 30px;
+.monthly-card {
+  border: 3px solid rgb(161, 161, 161);
+  border-radius: 10px;
+  padding: 30px;
 }
 
-.card-heading{
-    font-size: 40px;
-    color: rgb(49,67,119);
-    font-weight: 700;
+.card-heading {
+  font-size: 3rem;
+  color: rgb(49, 67, 119);
+  font-weight: 700;
 }
 
-.card-desc{
-    color: grey;
-    margin: 30px 0;
-    line-height: 1.5;
-    font-size: 18px;
+.card-desc {
+  color: grey;
+  margin: 30px 0;
+  line-height: 1.5;
+  font-size: 1.4rem;
 }
 
-.price{
-    font-weight: 700;
-    color: rgb(89,191,194);
-    font-size: 44px;
+.price {
+  font-weight: 700;
+  color: rgb(89, 191, 194);
+  font-size: 44px;
 }
 
-.cards-list{
-    margin: 15px 0;
+.cards-list {
+  margin: 3rem 0;
 }
 
-.cards-list p{
-    font-size: 18px;
-    margin-left: 20px;
+.cards-list p {
+  font-size: 18px;
+  margin-left: 20px;
 }
 
-.card-btn{
-    display: inline-block;
-    width: 100%;
-    color: rgb(49,67,119);
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: 2px solid rgb(161, 161, 161);
-    font-weight: 700;
-    margin-top: 20px;
+.card-btn {
+  display: inline-block;
+  width: 100%;
+  color: rgb(49, 67, 119);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid rgb(161, 161, 161);
+  font-weight: 700;
+  margin-top: 20px;
 }
 
-.active{
-    background: rgb(89,191,194);
-    color: white;
-    border: 2px solid rgb(89,191,194);
+.active {
+  background: rgb(89, 191, 194);
+  color: white;
+  border: 2px solid rgb(89, 191, 194);
 }
 
-.cross{
-    color: rgb(182, 182, 182);
+.cross {
+  color: rgb(182, 182, 182);
 }
 
-.trial{
-    margin: 80px 0;
+.trial {
+  margin: 80px 0;
 }
 
-.trial-text{
-    background: rgb(89,191,194);
-    border-radius: 40px;
-    padding: 100px;
+.trial-text {
+  background: rgb(89, 191, 194);
+  border-radius: 40px;
+  padding: 100px;
 }
 
-.trial-heading{
-    font-size: 42px;
-    color: white;
-    font-weight: 700;
-    margin-bottom: 10px;
+.trial-heading {
+  font-size: 42px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-.btn{
-    margin: 20px 0;
-    color: rgb(49,67,119);
-    background: white;
-    padding: 15px 50px;
-    display: inline-block;
-    border-radius: 5px;
-    font-weight: 500;
-    font-size: 18px;
+.btn {
+  margin: 20px 0;
+  color: rgb(49, 67, 119);
+  background: white;
+  padding: 1rem 1rem;
+  display: inline-block;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
-.footer{
-    margin: 80px 0;
-    color: grey;
+.footer {
+  margin: 80px 0;
+  color: grey;
 }
 
-.footer h4{
-    font-size: 34px;
-    color: rgb(49,67,119);
-    margin-bottom: 20px;
+.footer h4 {
+  font-size: 34px;
+  color: rgb(49, 67, 119);
+  margin-bottom: 20px;
 }
 
-.about p{
-    line-height: 1.5;
-    margin-bottom: 10px;
+.about p {
+  line-height: 1.5;
+  margin-bottom: 3rem;
 }
 
 .footer li {
-    margin: 15px 0;
+  margin: 15px 0;
+}
+
+/* Mobile Styles */
+
+@media screen and (max-width: 768px) {
+  /* General Styles */
+
+  html {
+    font-size: 10px;
+  }
+
+  .flex {
+    display: block;
+  }
+  .mobile-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .mobile-align-center {
+    align-items: center;
+  }
+
+  .mobile-center {
+    text-align: center;
+  }
+
+  label {
+    display: inline-block;
+  }
+
+  /* Header */
+
+  .brand {
+    font-size: 3rem;
+  }
+
+  label {
+    color: white;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  #checkbox:checked ~ nav {
+    display: inline-block;
+  }
+
+  /* Hero Section */
+  .hero {
+    height: 100vh;
+  }
+
+  .hero-heading {
+    font-size: 5rem;
+  }
+
+  .hero-img {
+    top: 60%;
+  }
+
+  /* Format */
+  .pdf {
+    margin: 5rem 0;
+  }
+
+  /* Graph */
+  .graph-text h4 {
+    font-size: 3rem;
+  }
+
+  .graph-text p {
+    font-size: 2rem;
+  }
+
+  .graph-text a {
+    margin-bottom: 2.5rem;
+  }
+
+  /* Plans */
+  .plans-text h4 {
+    font-size: 3rem;
+  }
+
+  .monthly-card{
+      margin: 5rem 0;
+  }
+
+  /* Trial */
+  .about p{
+      margin-bottom: 1rem;
+  }
+
+  .trial-heading{
+      font-size: 3rem;
+  }
+
+  .footer h4 {
+    font-size: 4rem;
+  }
 }
