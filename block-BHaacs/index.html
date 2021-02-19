@@ -21,8 +21,12 @@
   </head>
   <body>
     <header class="header">
-      <div class="container flex padding align-center">
+      <div class="container flex padding align-center mobile-flex">
         <a href="#" class="brand">TrackL</a>
+        <label for="checkbox">
+          <i class="fas fa-bars fa-2x"></i>
+        </label>
+        <input type="checkbox" name="" id="checkbox" />
         <nav class="nav">
           <ul class="ul flex">
             <li><a href="#">Features</a></li>
@@ -47,7 +51,7 @@
       </section>
 
       <section class="format container">
-        <div class="flex">
+        <div class="flex mobile-center">
           <div class="pdf file flex align-center">
             <img src="./assets/pdf.png" alt="PDF" />
             <h4>PDF FILE</h4>
@@ -70,7 +74,7 @@
 
       <section class="graph">
         <article class="container flex">
-          <div class="graph-text flex-40">
+          <div class="graph-text flex-40 mobile-center">
             <h4>Monitor Your Learning and Improve It</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
@@ -81,12 +85,16 @@
             <a href="#" class="special-btn">Learn More</a>
           </div>
           <div class="flex-40">
-            <img class="graph-img" src="./assets/learning-graph.png" alt="Graph" />
+            <img
+              class="graph-img"
+              src="./assets/learning-graph.png"
+              alt="Graph"
+            />
           </div>
         </article>
       </section>
 
-      <section class="table">
+      <!-- <section class="table">
         <div class="container">
           <h4 class="table-heading center">WEEKLY SCORE</h4>
           <table>
@@ -142,7 +150,7 @@
             </tbody>
           </table>
         </div>
-      </section>
+      </section> -->
 
       <section class="plans">
         <div class="container">
@@ -174,23 +182,23 @@
                 <p class="card-price"><span class="price">$ 48</span> /month</p>
               </div>
               <hr />
-              <div class="cards-list flex justify-start">
+              <div class="cards-list flex mobile-flex justify-start">
                 <img src="./assets/tick.png" alt="Tick" />
                 <p>50 Courses a day</p>
               </div>
-              <div class="cards-list flex justify-start">
+              <div class="cards-list flex mobile-flex justify-start">
                 <img src="./assets/tick.png" alt="Tick" />
                 <p>4 Forums a month</p>
               </div>
-              <div class="cards-list flex justify-start">
+              <div class="cards-list flex mobile-flex justify-start">
                 <img src="./assets/tick.png" alt="Tick" />
                 <p>16 Chapters a day</p>
               </div>
-              <div class="cards-list flex justify-start">
+              <div class="cards-list flex mobile-flex justify-start">
                 <img src="./assets/cross.png" alt="Cross" />
-                <p class="cross">Private lessons once a week</p>
+                <p class="cross">Private lessons</p>
               </div>
-              <div class="cards-list flex justify-start">
+              <div class="cards-list flex mobile-flex justify-start">
                 <img src="./assets/cross.png" alt="Cross" />
                 <p class="cross">Get weekly reward</p>
               </div>
@@ -208,23 +216,23 @@
                 <p class="card-price"><span class="price">$ 58</span> /month</p>
               </div>
               <hr />
-              <div class="cards-list flex justify-start">
+              <div class="cards-list flex mobile-flex justify-start">
                 <img src="./assets/tick.png" alt="Tick" />
                 <p>50 Courses a day</p>
               </div>
-              <div class="cards-list flex justify-start">
+              <div class="cards-list flex mobile-flex justify-start">
                 <img src="./assets/tick.png" alt="Tick" />
                 <p>4 Forums a month</p>
               </div>
-              <div class="cards-list flex justify-start">
+              <div class="cards-list flex mobile-flex justify-start">
                 <img src="./assets/tick.png" alt="Tick" />
                 <p>16 Chapters a day</p>
               </div>
-              <div class="cards-list flex justify-start">
+              <div class="cards-list flex mobile-flex justify-start">
                 <img src="./assets/tick.png" alt="tick" />
-                <p>Private lessons once a week</p>
+                <p>Private lessons</p>
               </div>
-              <div class="cards-list flex justify-start">
+              <div class="cards-list flex mobile-flex justify-start">
                 <img src="./assets/tick.png" alt="tick" />
                 <p>Get weekly reward</p>
               </div>
@@ -245,10 +253,13 @@
     </main>
 
     <footer class="footer">
-      <div class="container flex">
+      <div class="container flex mobile-center">
         <div class="about">
           <h4>TrackL</h4>
-          <p>Far far away,behind the word mountains, <br> far from the.</p>
+          <p>
+            Far far away,behind the word mountains, <br />
+            far from the.
+          </p>
           <i class="fab fa-facebook-square fa-2x"></i>
           <i class="fab fa-twitter-square fa-2x"></i>
           <i class="fab fa-instagram fa-2x"></i>
