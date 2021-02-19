@@ -130,7 +130,7 @@ table {
 
 /* Custom Styles */
 
-/* Commoon Styles */
+/* Common Styles */
 
 html {
   font-size: 16px;
@@ -290,13 +290,14 @@ li a {
   padding: 10px 30px;
   display: inline-block;
 }
-
+/* table */
 .table {
   margin: 80px 0;
 }
 
 table {
   margin: 50px 0;
+  width: 100%;
 }
 
 .table-heading {
@@ -305,10 +306,13 @@ table {
   color: rgb(49, 67, 119);
 }
 
-/* thead{
-    border-top-right-radius: 5px;
+thead th:first-child{
     border-top-left-radius: 5px;
-} */
+}
+
+thead th:last-child{
+    border-top-right-radius: 5px;
+}
 
 th {
   background: rgb(89, 191, 194);
@@ -498,6 +502,10 @@ tr:nth-child(2n) {
 
   /* Header */
 
+  /* .header{
+      position: relative;
+  } */
+
   .brand {
     font-size: 3rem;
   }
@@ -513,6 +521,17 @@ tr:nth-child(2n) {
   #checkbox:checked ~ nav {
     display: inline-block;
   }
+
+  /* .nav{
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      background: ;
+  } */
 
   /* Hero Section */
   .hero {
